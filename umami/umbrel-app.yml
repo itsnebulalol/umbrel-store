@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: umami
+category: files
+name: Umami
+category: Developer Tools
+version: "2.4.1"
+tagline: Umami is an open source, privacy-focused alternative to Google Analytics
+icon: https://github.com/itsnebulalol/umbrel-store/raw/master/assets/umami/icon.png
+description: >-
+  Umami is an open source, privacy-focused alternative to Google Analytics. Umami provides you with a powerful web analytics solution that does not violate the privacy of your users. Additionally, when you self-host Umami you are in complete control of your data.
+developer: Umami Software
+website: https://umami.is
+dependencies: []
+repo: https://github.com/umami-software/umami
+support: https://github.com/umami-software/umami/issues
+port: 2677
+gallery:
+  - https://github.com/itsnebulalol/umbrel-store/raw/master/assets/umami/1.png
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umami"
+torOnly: false
+submitter: Nebula
+submission: https://github.com/itsnebulalol/umbrel-store/tree/master/umami
