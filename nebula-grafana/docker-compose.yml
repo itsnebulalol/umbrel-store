@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: nebula-grafana_grafana_1
+      APP_PORT: 3000
+
+  grafana:
+    image: grafana/grafana:10.0.3
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - "3000:3000"
+    volumes:
+      - ${APP_DATA_DIR}/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - ${APP_DATA_DIR}/data:/var/lib/grafana

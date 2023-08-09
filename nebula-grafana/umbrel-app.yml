@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: nebula-grafana
+name: Grafana
+category: Monitoring
+version: "2.4.1"
+tagline: Dashboard anything. Observe everything.
+icon: https://github.com/grafana.png
+description: >-
+  Query, visualize, alert on, and understand your data no matter where it's stored. With Grafana you can create, explore, and share all of your data through beautiful, flexible dashboards.
+developer: Grafana Labs
+website: https://grafana.com
+dependencies: []
+repo: https://github.com/grafana/grafana
+support: https://github.com/grafana/grafana/issues
+port: 3622
+gallery:
+  - https://grafana.com/media/grafana/images/grafana-dashboard-english.png
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
+torOnly: false
+submitter: Nebula
+submission: https://github.com/itsnebulalol/umbrel-store/tree/master/nebula-grafana
