@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: umami_umami_1
+      APP_HOST: nebula-umami_umami_1
       APP_PORT: 3000
 
   umami:
